@@ -1,38 +1,58 @@
-.App {
+.markdone{
+  text-decoration: line-through;
+  color: rgb(28, 24, 24);
+  }
+  .content{
+    /* margin-left: 10px; */
+    padding: 100px;
+    background-color: rgb(185, 71, 139);
+    width: 550px;
+    border-radius: 300px;
+    text-align: center;
+  }
+
+  .todo{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;   
+    text-decoration-color: rgb(96, 96, 136);
+    text-align: center;
+    margin-top: -2cm;
+  }
+  
+.ib{
   text-align: center;
+  background-color: rgb(86, 77, 190);
+  color: aliceblue;
+  border-radius: 5%;
+  font-size: medium;
+  padding: 9px;
+  width: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  text-align: center;
+  font-size: medium;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button{
+  background-color: rgb(77, 190, 137);
+  border-radius: 10%;
+  padding: 7px;
+}
+
+  html, body {
+    height: 60%;
+    background-color: rgb(218, 224, 224);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  html {
+    display: table;
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+  
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(11, 10, 10);
   }
-}
